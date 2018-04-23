@@ -2,7 +2,7 @@ class Song
 
   attr_accessor :title, :author
 
-  def author=(Author)
-    author<<Author
+  def author=(x)
+    author<<x
   end
 end
