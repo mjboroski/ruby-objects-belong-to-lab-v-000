@@ -2,7 +2,7 @@ class Song
 
   attr_accessor :title, :artist
 
-  def artist=(x)
-    artist<<x
+  def artist=(artist)
+    @artist=artist
   end
 end
