@@ -1,8 +1,8 @@
 class Song
 
-  attr_accessor :title, :author
+  attr_accessor :title, :artist
 
-  def author=(x)
-    author<<x
+  def artist=(x)
+    artist<<x
   end
 end
