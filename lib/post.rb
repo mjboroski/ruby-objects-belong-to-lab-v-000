@@ -2,8 +2,8 @@ class Post
 
   attr_accessor :title, :author
 
-  def author=(x)
-    author<<x
+  def author=(author)
+    @author=author
   end
 
 end
